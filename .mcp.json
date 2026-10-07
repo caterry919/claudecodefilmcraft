@@ -7,6 +7,14 @@
     "filmcraft-headless": {
       "command": "target/release/filmcraft-cli",
       "args": ["mcp", "--demo"]
+    },
+    "effectcraft": {
+      "command": "../effectcraft/target/release/effectcraft-cli",
+      "args": ["mcp", "--demo"]
+    },
+    "effectcraft-app": {
+      "command": "../effectcraft/target/release/effectcraft-cli",
+      "args": ["mcp", "--bridge", "9877"]
     }
   }
 }
