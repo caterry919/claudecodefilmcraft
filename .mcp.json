@@ -9,11 +9,11 @@
       "args": ["mcp", "--demo"]
     },
     "effectcraft": {
-      "command": "/home/user/effectcraft/target/release/effectcraft-cli",
+      "command": "../effectcraft/target/release/effectcraft-cli",
       "args": ["mcp", "--demo"]
     },
     "effectcraft-app": {
-      "command": "/home/user/effectcraft/target/release/effectcraft-cli",
+      "command": "../effectcraft/target/release/effectcraft-cli",
       "args": ["mcp", "--bridge", "9877"]
     }
   }
